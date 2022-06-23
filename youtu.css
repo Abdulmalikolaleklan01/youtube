@@ -1,0 +1,42 @@
+ [class="grod"]{
+  border: .5px solid grey;
+  border-radius: 30%;
+  margin-right: 30px;
+  overflow-x: auto;
+  background: lightgray;
+}
+[id="nav"]:hover{
+  background: lightgray;
+  width: 100px;
+  border-radius: 20px;
+
+}
+[id="nav"]{
+  width: 100px;
+  border-radius: 20px;
+}
+
+
+[id="text"]{
+  border: 1px solid gray;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: .375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
